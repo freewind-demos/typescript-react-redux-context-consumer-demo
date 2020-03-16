@@ -6,6 +6,7 @@ const initStore: State = {
 }
 
 export default function reducers(state = initStore, action: ChangeNameAction): State {
+  console.log("### reducers", {state, action})
   switch (action.type) {
     case 'CHANGE_NAME':
       return {

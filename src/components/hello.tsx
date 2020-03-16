@@ -10,6 +10,7 @@ export default function Hello() {
           <input value={store.getState().name} onChange={(e) => store.dispatch(changeNameAction(e.target.value))}/>
           <div>{JSON.stringify(store.getState())}</div>
         </ul>
+        <button onClick={()=> store.dispatch(changeNameAction('DDD'))}>Click</button>
       </div>
     }}
   </ReactReduxContext.Consumer>
