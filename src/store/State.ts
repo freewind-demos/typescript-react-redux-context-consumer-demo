@@ -1,3 +1,3 @@
 export type State = {
-  fruits: string[]
+  name: string
 };

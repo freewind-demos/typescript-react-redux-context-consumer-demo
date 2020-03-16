@@ -1,8 +1,8 @@
-import {DeleteFruitAction} from './actionTypes';
+import {ChangeNameAction} from './actionTypes';
 
-export function deleteFruitAction(name: string): DeleteFruitAction {
+export function changeNameAction(name: string): ChangeNameAction {
   return {
-    type: 'DELETE_FRUIT',
-    fruitName: name
+    type: 'CHANGE_NAME',
+    name: name
   }
 }

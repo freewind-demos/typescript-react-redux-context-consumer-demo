@@ -1,6 +1,4 @@
-export type DeleteFruitAction = {
-  type: 'DELETE_FRUIT',
-  fruitName: string,
+export type ChangeNameAction = {
+  type: 'CHANGE_NAME',
+  name: string,
 }
-
-export type ActionTypes = DeleteFruitAction
